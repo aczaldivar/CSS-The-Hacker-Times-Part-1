@@ -14,20 +14,27 @@
     font-family:'Source';
     src: url(./fonts/SourceSansPro-Regular.ttf) format(truetype);
 }
+body{
+    background: white;
+    box-shadow: #ddd;
+    max-width: 700px;
+}
 h1{
 font-family: 'Abril Fatface', cursive;
-text-align: center; 
-margin-bottom: 10px;
-margin-top:-10px;
-
+text-align: center;
+margin-bottom: 5px;
+margin-top: -10px;
+font-size: 50px;
 }
 h2{
     font-family: 'Roboto Slab';
     font-weight: 800;
+    font-size: 30px;
 }
 p {
   
         font-family: Source Sans Pro;
+        color:#dd3232;
  }
 
 
@@ -45,12 +52,20 @@ ul{
     border-left: none;
     margin-bottom: 50px solid lightgrey; 
     padding:0px;
+    width:800px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width:650px;
+    align-content: space-between;
+    justify-content: space-around;
 }
 a {
 text-decoration: none;
 display: inline-flex;
 flex-direction: column;
 padding: 4px;
+margin:auto;
+color: #777;
 }
 nav {
     text-align: center;
@@ -64,8 +79,17 @@ div.more-articles{
 main{
     border-bottom: 5px solid lightgrey;
 }
+h5
+{
+    color:red;
+    font-weight:1000px;
 
-
+}
+.computerpic{
+    display: block;
+    margin-left: 30px;
+   
+}
 
 
 
