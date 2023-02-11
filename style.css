@@ -18,6 +18,9 @@ body{
     background: white;
     box-shadow: #ddd;
     max-width: 700px;
+    border-radius: 25px;
+    background-color: #eee;
+    border-color: #eee;
 }
 h1{
 font-family: 'Abril Fatface', cursive;
@@ -29,12 +32,15 @@ font-size: 50px;
 h2{
     font-family: 'Roboto Slab';
     font-weight: 800;
-    font-size: 30px;
+    font-size: 25px;
 }
 p {
   
         font-family: Source Sans Pro;
         color:#dd3232;
+        padding:10px;
+        text-align:justify;
+
  }
 
 
@@ -75,6 +81,8 @@ div.more-articles{
 }
 .more-articles{
     font-family: 'Source Sans Pro';
+    text-align:center;
+
 }
 main{
     border-bottom: 5px solid lightgrey;
@@ -90,6 +98,10 @@ h5
     margin-left: 30px;
    
 }
-
+h4{
+    text-align: left;
+    margin-left: 45px;
+    font-weight: 900px;
+}
 
 
