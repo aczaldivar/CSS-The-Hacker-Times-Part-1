@@ -103,5 +103,12 @@ h4{
     margin-left: 45px;
     font-weight: 900px;
 }
+.newspaper-container{
+    width:700px;
+    background: white;
+    border-radius: 15px;
+    padding-left: 15px;
+    padding-right: 10px;
 
+}
 
